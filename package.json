@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "dev:backend": "npm run dev -w @mindshare/backend",
+    "dev:frontend": "npm run dev --prefix frontend",
     "lint": "biome check .",
     "lint:fix": "biome check --write ."
   },
